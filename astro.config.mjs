@@ -11,8 +11,8 @@ import remarkMath from "remark-math";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://WorkSpacesPro.github.io",
-  base: "/astrogon",
+  site: "https://networkspro.github.io",
+  base: "/", // /astrogon
   trailingSlash: "ignore",
   prefetch: {
     prefetchAll: true
