@@ -9,6 +9,8 @@ src/components/Giscus.astro                   Giscus
 
 src/components/base/Header.astro              nav
 
+src/types/index.d.ts                          news nav/pages
+
 src/content/home/-index.md                    Home
 
 src/content/about/-index.md                   about me 
