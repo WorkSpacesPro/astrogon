@@ -1,0 +1,12 @@
+---
+import CollectionLayout from "@components/poetry/CollectionLayout.astro";
+import { getEntries } from "@lib/contentParser";
+import { sortByDate } from "@lib/sortFunctions";
+import type { BookmarksEntry } from "@/types";
+import { getIndex } from "@lib/contentParser";
+
+const entryIndex = (await getIndex("bookmarks")) as bookmarksEntry;
+const entries = (await getEntries("bookmarks", sortByDate)) as bookmarksEntry[];
+---
+
+<CollectionLayout entryIndex={entryIndex} entries={entries} />
