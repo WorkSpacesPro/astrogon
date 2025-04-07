@@ -4,6 +4,7 @@ import { markdownify } from "@lib/textConverter";
 import { Image } from "astro:assets";
 import type { AboutEntry } from "@/types";
 import { render } from "astro:content";
+import Giscus from "@components/Giscus.astro";
 
 interface Props {
   entry: AboutEntry;
@@ -36,5 +37,6 @@ const { Content } = await render(entry);
         </div>
       </div>
     </div>
+        <Giscus />
   </section>
 </BaseLayout>
