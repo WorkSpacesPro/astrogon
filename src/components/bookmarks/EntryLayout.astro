@@ -8,7 +8,7 @@ import type { BookmarksryEntry } from "@/types";
 import { render } from "astro:content";
 import EntryHeader from "@components/common/EntryHeader.astro";
 interface Props {
-  entry: PoetryEntry;
+  entry: BookmarksEntry;
   pageIDs: string[];
   pageIndex: number;
   pageCount: number;
@@ -50,7 +50,7 @@ const entryDescription =
     </div>
   </section>
   <Pagination
-    collection="poetry"
+    collection="bookmarks"
     pageIDs={pageIDs}
     pageIndex={pageIndex}
     pageCount={pageCount}
