@@ -4,7 +4,6 @@ import { getTaxaMultiset, getTaxa } from "@lib/taxonomyParser";
 import { sortByDate } from "@lib/sortFunctions";
 import CollectionLayout from "@components/blog/CollectionLayout.astro";
 import type { BlogEntry } from "@/types";
-import Giscus from "@components/Giscus.astro";
 
 const { slug } = Astro.params;
 const currentPageIndex = slug && !isNaN(Number(slug)) ? Number(slug) : 1;
@@ -51,5 +50,4 @@ export async function getStaticPaths() {
   pageIndex={currentPageIndex}
   pageCount={pageCount}
 />
-      <div class="mt-4">
-        <Giscus />
+
