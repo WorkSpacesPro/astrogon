@@ -2,8 +2,11 @@
 import type { AboutEntry } from "@/types";
 import EntryLayout from "@components/about/EntryLayout.astro";
 import { getIndex } from "@lib/contentParser";
+import Giscus from "@components/Giscus.astro";
 
 const entry = (await getIndex("about")) as AboutEntry;
 ---
 
 <EntryLayout entry={entry} />
+      <div class="mt-8">
+        <Giscus />
