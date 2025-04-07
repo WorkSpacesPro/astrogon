@@ -10,6 +10,6 @@ Hi, I'm Pang Ge.
 # contact me
  wechat;DomainsPro
  
- workgroupro@gmail.com
+ workgroupro#gmail.com
 
  
