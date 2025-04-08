@@ -4,6 +4,6 @@ imageAlt: Pang.Ge logo
 title: Pang.Ge
 content: Used for website navigation pages and bookmarks, and more.
 button:
-  label: See the Code
+  label: contact me
   link: https://Pang.Ge
 ---
