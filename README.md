@@ -15,9 +15,9 @@ src/content/home/-index.md                    Home
 
 src/content/about/-index.md                   about me 
 
-src/components/blog/EntryLayout.astro   **Giscus blog **
+src/components/blog/EntryLayout.astro       **Giscus blog **
 
-[![GitHub License](https://img.shields.io/github/license/astrogon/astrogon?color=red)](https://github.com/astrogon/astrogon/blob/main/LICENSE) [![Repo Size](https://img.shields.io/github/repo-size/astrogon/astrogon)](https://github.com/astrogon/astrogon) ![GitHub branch check runs](https://img.shields.io/github/check-runs/astrogon/astrogon/main) [![Website](https://img.shields.io/website?up_message=online&up_color=limegreen&down_message=offline&down_color=yellow&url=https%3A%2F%2Fastrogon.reednel.com%2F)](https://astrogon.reednel.com/)
+src/components/base/Background.astro         background img
 
 Astrogon is a rapidly-customizable multipurpose website template built using Astro JS, Tailwind, and a sprinkle of React.
 
