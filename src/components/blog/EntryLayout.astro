@@ -7,6 +7,7 @@ import type { BlogEntry } from "@/types";
 import TableOfContents from "@components/common/TableOfContents.astro";
 import { render } from "astro:content";
 import EntryHeader from "@components/common/EntryHeader.astro";
+import Giscus from "@components/Giscus.astro";
 interface Props {
   entry: BlogEntry;
   relatedEntries: BlogEntry[];
@@ -66,7 +67,8 @@ const entryDescription =
     </div>
   </section>
   <!-- Related posts -->
-  {
+   <!--
+{
     relatedEntries.length > 0 && (
       <section class="row justify-center my-8">
         <h2 class="h3 mb-4 text-center">Related Posts</h2>
@@ -82,4 +84,19 @@ const entryDescription =
       </section>
     )
   }
+ -->
+  <!-- Giscus -->
+{
+    relatedEntries.length > 0 && (
+      <section class="row justify-center my-8">
+        <h2 class="h3 mb-4 text-center">Related Posts</h2>
+        <div class="lg:col-10">
+           <Giscus />
+            ))}
+          </div>
+        </div>
+      </section>
+    )
+  }
+
 </BaseLayout>
