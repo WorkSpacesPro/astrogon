@@ -5,5 +5,5 @@ title: Pang.Ge
 content: Used for website navigation pages and bookmarks, and more.
 button:
   label: contact me
-  link: https://Pang.Ge
+  link: /about
 ---
