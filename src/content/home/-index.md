@@ -5,5 +5,5 @@ title: Pang.Ge
 content: Used for website, and more.
 button:
   label: Reading
-  link: https://hello.ga
+  link: https://domainname.plus
 ---
