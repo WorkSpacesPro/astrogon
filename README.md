@@ -19,6 +19,8 @@ src/components/blog/EntryLayout.astro       **Giscus blog **
 
 src/components/base/Background.astro         background img
 
+src/components/base/BaseLayout.astro       base url 
+
 Astrogon is a rapidly-customizable multipurpose website template built using Astro JS, Tailwind, and a sprinkle of React.
 
 ## Features
